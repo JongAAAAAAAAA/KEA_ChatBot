@@ -1,0 +1,72 @@
+{
+  "name": "developers-portfolio",
+  "description": "A personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.",
+  "homepage": "http://localhost:3000/home",
+  "version": "2.0.0",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-regular-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@material-ui/core": "^4.12.3",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.0",
+    "colorthief": "^2.4.0",
+    "gh-pages": "^4.0.0",
+    "nouislider": "^15.7.0",
+    "react": "^18.2.0",
+    "react-beautiful-dnd": "^13.1.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-switch": "^15.5.3",
+    "react-dom": "^18.2.0",
+    "react-easy-emoji": "^1.8.1",
+    "react-headroom": "^3.2.1",
+    "react-loading-skeleton": "^3.1.0",
+    "react-redux": "^7.2.6",
+    "react-reveal": "^1.2.2",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-scroll-into-view": "^1.12.0",
+    "react-typist-component": "^1.0.3",
+    "reactstrap": "^9.1.6",
+    "redux": "^4.1.2",
+    "sass": "^1.54.3",
+    "shortid": "^2.2.16",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.7.4",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "custom-deploy": "node pages.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
